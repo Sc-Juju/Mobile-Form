@@ -1,0 +1,9 @@
+:root{
+    --white:#fff;
+    --black: #000;
+    --header-top:rgba(76,1,208,255);
+    --header-bottom:rgba(98,3,238,255);
+    --content-box:rgba(232,232,231,255);
+    max-width: 414px;
+    margin: auto;
+}

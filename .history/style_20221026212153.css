@@ -1,0 +1,22 @@
+:root{
+    --white:#fff;
+    --black: #000;
+    --header-top:rgba(76,1,208,255);
+    --header-bottom:rgba(98,3,238,255);
+    --content-box:rgba(232,232,231,255);
+    max-width: 414px;
+    margin: auto;
+}
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    color: var(--font-color-dark);
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius:1.25rem;
+    transition: ease-in-out .3s;
+}
