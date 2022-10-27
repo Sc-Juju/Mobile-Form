@@ -10,16 +10,40 @@
 .btn{
     display: inline-block;
     font-weight: 400;
-    color: var(--font-color-dark);
+    color:var(--white);
     text-align: center;
     cursor: pointer;
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
     padding: .375rem .75rem;
-    border-radius:1.25rem;
     transition: ease-in-out .3s;
 }
 .container{
     margin-left: auto;
+    background-color:var(--header-top);
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: var(--header-bottom);
+}
+.nav-link a{
+    color: var(--white);
+    font-size: .8125rem;
+    font-weight: 600;
+    font-family: "Hind", sans-serif;
+    text-transform: uppercase;
+    margin-right: 2.5rem;
+    line-height: 1.25rem;
+}
+a {text-decoration: none;}
+.nav-icon{
+    height:30px;
 }
