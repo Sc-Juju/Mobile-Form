@@ -69,10 +69,8 @@ input[type=text]{
 }
 input[type=email]{ width: 80%;}
 input[type=date]{width: 80%;}
-input[type=tel]{
-    width: 40%;
-    margin-right:10px;
-}
+input[type=tel]{width: 40%;}
+input[type=select]{width: 40%;}
 .grey-box{
     background-color: var(--content-box);
     border-top-style: hidden;
@@ -83,11 +81,9 @@ input[type=tel]{
 }
 input{
     line-height: 2rem;
-    max-width: 80%;
 }
 select{
     height:2rem;
-    width: 35%;
 }
 label{
     padding-right: 20px;
@@ -95,19 +91,4 @@ label{
 }
 .transparent{
     color:transparent;
-    margin-left:-4px;
-}
-#zipcode{
-    margin-left:17px;
-    width:35%;
-}
-#city{
-    width: 79%;
-}
-#email{
-    width:80%;
-    margin-left:-4px;
-}
-#state{
-    width:40%;
 }
