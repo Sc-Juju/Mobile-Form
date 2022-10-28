@@ -23,7 +23,7 @@
 						<i class="fa-solid fa-circle"></i>
 					</li>
 					<li class="nav-link">
-						<i class="fa-solid fa-chevron-down"></i>
+						<i class="fa-sharp fa-solid fa-triangle"></i>
 					</li>
 				</ul>
 			</div>
@@ -35,12 +35,12 @@
 					<li class="nav-link">
 						<a href="#">Contacts</a>
 					</li>
-					<li class="nav-link nav-right">
+					<li class="nav-link">
 						<a href="#">
 							<i class="fa-solid fa-magnifying-glass"></i>
 						</a>
 					</li>
-					<li class="nav-link nav-right">
+					<li class="nav-link">
 						<a href="#">
 							<i class="fa-solid fa-ellipsis-vertical"></i>
 						</a>
@@ -49,15 +49,9 @@
 			</div>
 		</header>
 		<form action="">
-			<label for="name"><i class="fa-solid fa-user"></i></label>
-			<input
-				type="text"
-				id="name"
-				name="name"
-				placeholder="Name"
-				class="grey-box"
-			/><br /><br />
-			<label for="phone"><i class="fa-solid fa-phone"></i></label>
+			<label for="name"></label>
+			<input type="text" id="name" name="name" placeholder="Name" /><br />
+			<label for="phone"></label>
 			<input
 				type="tel"
 				name="phone"
@@ -68,27 +62,18 @@
 			<select name="Label" id="Label">
 				<option value="" disabled selected hidden>Label</option>
 			</select>
-			<br /><br />
-			<label for="address"
-				><i class="fa-solid fa-location-dot"></i
-			></label>
+			<br />
+			<label for="address"></label>
 			<input
 				type="text"
 				placeholder="Address"
 				id="address"
 				name="address"
-				class="grey-box"
 			/>
-			<br /><br />
-			<label for="city"
-				><i class="fa-solid fa-check transparent"></i>
-			</label>
+			<br />
 			<input type="text" id="city" name="city" placeholder="City" />
-			<br /><br />
-			<label for="state"
-				><i class="fa-solid fa-check transparent"></i>
-			</label>
-			<select name="state" id="state" class="grey-box">
+			<br />
+			<select name="state" id="state">
 				<option value="" disabled selected hidden>State</option>
 				<option value="AL">Alabama</option>
 				<option value="AK">Alaska</option>
@@ -147,22 +132,13 @@
 				id="zipcode"
 				name="zipcode"
 				placeholder="Zip"
-				class="grey-box"
 			/>
-			<br /><br />
-			<label for="email"><i class="fa-solid fa-envelope"></i></label>
+			<br />
+			<label for="email"></label>
 			<input type="email" name="email" id="email" placeholder="Email" />
-			<br /><br />
-			<label for="birthday"
-				><i class="fa-solid fa-cake-candles"></i
-			></label>
-			<input
-				type="date"
-				name="birthday"
-				id="birthday"
-				placeholder="Birthday"
-				class="grey-box"
-			/>
+			<br />
+			<label for="birthday"></label>
+			<input type="date" name="birthday" id="birthday" />
 		</form>
 	</body>
 </html>

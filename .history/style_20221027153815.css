@@ -4,8 +4,7 @@
     --header-top:rgba(76,1,208,255);
     --header-bottom:rgba(98,3,238,255);
     --content-box:rgba(232,232,231,255);
-    --header-top-icon:rgba(216,183,253,255);
-    width: 414px;
+    max-width: 414px;
     margin: auto;
 }
 .btn{
@@ -23,29 +22,17 @@
 .container{
     margin-left: auto;
     background-color:var(--header-top);
-    display: inline-flex;
-    width: 100%;
-    justify-content: flex-end;
-    align-self: flex-end;
 }
 ul{
     padding:0;
     margin:0;
     list-style: none;
 }
+
 .navbar{
     display: flex;
     align-items: center;
-    transition: ease-in-out .3s;
-}
-.nav-top{
-    background-color: var(--header-top);
-    color: var(--header-top-icon);
-}
-.nav-bottom{
     background-color: var(--header-bottom);
-    width: 100%;
-    justify-content: space-between;
 }
 .nav-link a{
     color: var(--white);
@@ -56,37 +43,13 @@ ul{
     margin-right: 2.5rem;
     line-height: 1.25rem;
 }
-.nav-right{
-    justify-content: flex-end;   
-}
 a {text-decoration: none;}
 .nav-icon{
     height:30px;
 }
-input[type=text]{
-    width:80%;
-    margin: 0 auto;
-}
-input[type=email]{ width: 80%;}
-input[type=date]{width: 80%;}
-.grey-box{
-    background-color: var(--content-box);
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    border-bottom-style: groove;
-    border-bottom: 1px solid black;
+#name{
+    width:70%;
 }
 input{
-    line-height: 2rem;
-}
-select{
-    height:2rem;
-}
-label{
-    padding-right: 20px;
-    padding-left: 10px;
-}
-.transparent{
-    color:transparent;
+    align-items: center;
 }
